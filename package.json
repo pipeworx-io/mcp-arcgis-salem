@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-arcgis-salem",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "City of Salem GIS — Salem, Oregon open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-arcgis-salem": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arcgis-salem"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-arcgis-salem"
+    "url": "git+https://github.com/pipeworx-io/mcp-arcgis-salem.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-e459969702e9021a66a11a022edece8e9c40ca9178bf2f288e7604aad65c72dc",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
