@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arcgis-salem",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "City of Salem GIS — Salem, Oregon open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-e459969702e9021a66a11a022edece8e9c40ca9178bf2f288e7604aad65c72dc",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-a4dc2ed038ca8a00ac94b62b6a64dd056b32b3ba3e292000d2b2c3820dcd2bae",
+    "sourceCommit": "454041882179fae560c06e770b6b7a2f33970015"
   }
 }
